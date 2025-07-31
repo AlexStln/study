@@ -5,10 +5,10 @@
 
 int main()
 {
-	int a,b,c,max;	//	объявляем переменные
-	scanf("%d%d%d",&a,&b,&c);	// 	водим данные
-	max = a>b ? a : b;
-	max = max>c ? max : c;	//	ищем максимальное значение
+	int a, b, c, max;	//	объявляем переменные
+	scanf("%d%d%d", &a, &b, &c);	// 	водим данные
+	max = (a > b) ? a : b;
+	max = (max > c) ? max : c;	//	ищем максимальное значение
 	printf("%d ", max);	//	выводим
 	return 0;
 }
