@@ -38,9 +38,9 @@ void ArrShift(int arr[], int size) // сдвиг массива вправо
 
 int main(void) 
 {
-    int arr[SIZE] = {1,2,3,4,5,6,7,8,9,10};
-    //int arr[SIZE] ={0};
-    //ReadArr(arr, SIZE);
+    //int arr[SIZE] = {1,2,3,4,5,6,7,8,9,10};
+    int arr[SIZE] ={0};
+    ReadArr(arr, SIZE);
     ArrShift(arr, SIZE);
     PrintArr(arr, SIZE);
     return 0;
